@@ -20,6 +20,14 @@ _SPLITS_COCO_FORMAT["coco"] = {
         "coco",
         "coco/annotations/google/instances_unlabeledtrainval20class.json",
     ),
+    "labeled_train": (
+        "/content/drive/My Drive/unbiased-teacher/datasets/coco/train",
+        "/content/drive/My Drive/unbiased-teacher/datasets/coco/train/instance_train.json",
+    ),
+    "labeled_val": (
+        "/content/drive/My Drive/unbiased-teacher/datasets/coco/val",
+        "/content/drive/My Drive/unbiased-teacher/datasets/coco/val/instance_val.json",
+    ),
 }
 
 
