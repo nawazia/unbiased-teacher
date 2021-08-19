@@ -49,7 +49,7 @@ class FastRCNNFocalLoss(FastRCNNOutputs):
         proposals,
         smooth_l1_beta=0.0,
         box_reg_loss_type="smooth_l1",
-        num_classes=80,
+        num_classes=6,
     ):
         super(FastRCNNFocalLoss, self).__init__(
             box2box_transform,
@@ -86,7 +86,7 @@ class FocalLoss(nn.Module):
         self,
         weight=None,
         gamma=1.0,
-        num_classes=80,
+        num_classes=6,
     ):
         super(FocalLoss, self).__init__()
         assert gamma >= 0
