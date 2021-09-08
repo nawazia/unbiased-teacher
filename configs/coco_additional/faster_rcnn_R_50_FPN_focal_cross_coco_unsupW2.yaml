@@ -12,6 +12,7 @@ MODEL:
   ROI_HEADS:
     NAME: "StandardROIHeadsPseudoLab"
     LOSS: "FocalLoss" # variant: "CrossEntropy"
+    NUM_CLASSES: 6
 SOLVER:
   LR_SCHEDULER_NAME: "WarmupTwoStageMultiStepLR"
   STEPS: (60000, 80000, 90000, 360000)
