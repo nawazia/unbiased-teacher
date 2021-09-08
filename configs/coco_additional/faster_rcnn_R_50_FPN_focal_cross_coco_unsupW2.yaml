@@ -25,9 +25,9 @@ DATALOADER:
   SUP_PERCENT: 100
 DATASETS:
   CROSS_DATASET: True
-  TRAIN_LABEL: ("coco_2017_train",)
-  TRAIN_UNLABEL: ("coco_2017_unlabel",)
-  TEST: ("coco_2017_val",)
+  TRAIN_LABEL: ("labeled_train",)
+  TRAIN_UNLABEL: ("labeled_test",)
+  TEST: ("labelled_val",)
 SEMISUPNET:
   Trainer: "ubteacher"
   BBOX_THRESHOLD: 0.7
