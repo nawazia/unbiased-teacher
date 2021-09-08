@@ -28,6 +28,10 @@ _SPLITS_COCO_FORMAT["coco"] = {
         "/content/drive/My Drive/unbiased-teacher/datasets/coco/val",
         "/content/drive/My Drive/unbiased-teacher/datasets/coco/annotations/instance_val.json",
     ),
+    "labeled_test": (
+        "/content/drive/My Drive/unbiased-teacher/datasets/coco/test",
+        "/content/drive/My Drive/unbiased-teacher/datasets/coco/annotations/instance_test.json",
+    ),
 }
 
 
