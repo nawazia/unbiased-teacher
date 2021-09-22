@@ -21,16 +21,16 @@ _SPLITS_COCO_FORMAT["coco"] = {
         "coco/annotations/google/instances_unlabeledtrainval20class.json",
     ),
     "labeled_train": (
-        "/content/drive/My Drive/unbiased-teacher/datasets/coco/train",
-        "/content/drive/My Drive/unbiased-teacher/datasets/coco/annotations/instance_train.json",
+        "coco/train",
+        "coco/annotations/instance_train.json",
     ),
     "labeled_val": (
-        "/content/drive/My Drive/unbiased-teacher/datasets/coco/val",
-        "/content/drive/My Drive/unbiased-teacher/datasets/coco/annotations/instance_val.json",
+        "coco/val",
+        "coco/annotations/instance_val.json",
     ),
     "labeled_test": (
-        "/content/drive/My Drive/unbiased-teacher/datasets/coco/test",
-        "/content/drive/My Drive/unbiased-teacher/datasets/coco/annotations/instance_test.json",
+        "coco/test",
+        "coco/annotations/instance_test.json",
     ),
 }
 
